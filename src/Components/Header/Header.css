@@ -1,0 +1,36 @@
+.Link-color{
+    color: black !important;
+    font-weight: 600;
+}
+.Register{
+    background-color: #3F90FC;
+    border-radius: 5px;
+    color: white !important;
+    
+}
+.Admin{
+    background-color:#434141;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: white !important;
+    
+}
+.head-title{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-weight: 700;
+}
+.search{
+    background-color: #3F90FC !important ;
+    color: white !important;
+    font-weight: 600 !important;
+}
+.head-section{
+    min-height: 500px;
+    background-image: linear-gradient(#ffffffe3,#ffffffe3,#ffffffe3,#ffffffe3),url('../../images/bg.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
