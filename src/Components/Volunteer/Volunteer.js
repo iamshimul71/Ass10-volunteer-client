@@ -16,7 +16,20 @@ const Volunteer = () => {
    }
 
    useEffect(()=>{
-     fetch('http://localhost:5000/volunteerAllList')
+     
+
+     fetch('https://cryptic-mesa-06614.herokuapp.com/volunteerAllList', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          username: 'userName',
+          password: 'pwd',
+        })
+      })
+
+
      .then(res=>res.json())
      .then(data=>newVolunter(data))
 
